@@ -1,0 +1,8 @@
+#!/bin/bash
+# script to accept arguments sending in from git mergetool
+#
+# Base is $1
+# Remote (or Theirs) is $2
+# Local (or Yours) is $3
+# Merged is $4
+vimdiff -c "wincmd J" -c "windo set wrap" "$4" "$3" "$1" "$2"
