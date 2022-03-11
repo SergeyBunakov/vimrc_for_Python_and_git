@@ -1,7 +1,7 @@
 # How to set up 3-way merge tool for git and p4 with vimdiff
 
-[source](https://alastochkinheroku.github.io/tech/cheatsheet/#links)
-[source](https://blog.programster.org/configure-git-to-use-vimdiff)
+[visit source 1](https://www.linkedin.com/pulse/how-set-up-3-way-merge-tool-git-p4-vimdiff-wasin-thonkaew?trk=public_profile_article_view)
+[visit source 2](https://blog.programster.org/configure-git-to-use-vimdiff)
 
 * sudo touch /usr/local/bin/gitmergetool
 * Add the following content into such file via your favorite text editor
